@@ -1,0 +1,41 @@
+/* width */
+::-webkit-scrollbar {
+	width: 10px;
+}
+  
+/* Track */
+::-webkit-scrollbar-track {
+	background: #161b22;
+}
+  
+ /* Handle */
+::-webkit-scrollbar-thumb {
+	background: #475261;
+	border-radius: 4px;
+ }
+  
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #364252;
+	border-radius: 4px;
+}
+
+html {
+	background-color: #0d1117;
+}
+
+* {
+	font-family: 'Roboto';
+	font-weight: 400;
+	margin: 0;
+	padding: 0;
+}
+
+.sidebar {
+	padding: 0;
+	display: flex;
+	width: 25vw;
+	height: 200vh;
+	background-color: #161b22;
+	color: white;
+}
